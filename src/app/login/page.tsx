@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import AuthLeftPanel from '@/components/AuthLeftPanel';
-import LoginForm from '@/components/LoginForm';
+import AuthLeftPanel from '@/components/layout/AuthLeftPanel';
+import LoginForm from '@/components/auth/LoginForm';
 
 export default function LoginPage() {
   return (

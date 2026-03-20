@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import ProgressBar from '@/components/ProgressBar';
-import SignupLeftPanel from '@/components/SignupLeftPanel';
-import VerificationForm from '@/components/VerificationForm';
+import ProgressBar from '@/components/onboarding/ProgressBar';
+import SignupLeftPanel from '@/components/layout/SignupLeftPanel';
+import VerificationForm from '@/components/onboarding/VerificationForm';
 
 export default function VerificationPage() {
   const router = useRouter();

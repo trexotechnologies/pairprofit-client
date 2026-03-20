@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import ProfessionalDetailsForm from '@/components/ProfessionalDetailsForm';
-import ProgressBar from '@/components/ProgressBar';
-import SignupLeftPanel from '@/components/SignupLeftPanel';
+import ProfessionalDetailsForm from '@/components/onboarding/ProfessionalDetailsForm';
+import ProgressBar from '@/components/onboarding/ProgressBar';
+import SignupLeftPanel from '@/components/layout/SignupLeftPanel';
 
 export default function ProfessionalDetailsPage() {
   const router = useRouter();

@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import RoleSelectionCard from '@/components/RoleSelectionCard';
-import Button from '@/components/Button';
+import RoleSelectionCard from '@/components/onboarding/RoleSelectionCard';
+import { Button } from '@/components/ui/button';
 
 export default function OnboardingPage() {
   const router = useRouter();

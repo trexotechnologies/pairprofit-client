@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import SignupForm from '@/components/SignupForm';
-import ProgressBar from '@/components/ProgressBar';
-import SignupLeftPanel from '@/components/SignupLeftPanel';
+import SignupForm from '@/components/auth/SignupForm';
+import ProgressBar from '@/components/onboarding/ProgressBar';
+import SignupLeftPanel from '@/components/layout/SignupLeftPanel';
 
 export default function SignupPage() {
   const router = useRouter();

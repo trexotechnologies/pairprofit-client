@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import SignupSuccess from '@/components/SignupSuccess';
+import SignupSuccess from '@/components/auth/SignupSuccess';
 
 export default function SuccessPage() {
   return (
