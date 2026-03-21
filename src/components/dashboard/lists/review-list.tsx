@@ -9,7 +9,7 @@ const ReviewList = () => {
     <Card className="border-none shadow-sm bg-white h-full">
       <CardHeader className="flex flex-row items-center justify-between py-4 px-6 border-b border-gray-50">
         <CardTitle className="text-sm font-bold text-[#0b4d6b]">Latest Review</CardTitle>
-        <Link href="#" className="text-[10px] text-[#1680ab] font-bold uppercase tracking-widest hover:underline">
+        <Link href="/artisan/reviews" className="text-[10px] text-[#1680ab] font-bold uppercase tracking-widest hover:underline">
           See all
         </Link>
       </CardHeader>
